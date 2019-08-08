@@ -1,0 +1,18 @@
+Task 3:
+	OPtimal parameters:
+Ridge Regression:
+		Learning_rate	:	0.00001
+		Max_Iteration	:	30000
+		Lambda_Used		:	12
+		K				:	6
+
+Task 5:
+
+Unusual observtions in weights in Lasso:
+	Some weights component obtained from Lasso are zero. i.e those component of dataset is not contributing anything to the test result. 
+	The contour of the original sse function tends to cut the the countour of the L1 norm at the corner points which are on the axis. Thus componentscan be zero.
+	But in ridge regression, no component of weight is zero unless all are zero.
+
+
+Is using lasso advantageous?
+	Lasso can be advantageous as its some component is zero. I.e it discard less important features and use more important featues. While ridge regression doen't do it.

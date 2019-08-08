@@ -1,0 +1,22 @@
+Roll No: 160050048
+Name: 	Harshwardhan Mourya
+
+
+Task-4:
+	Average inital tour length is in order Random Initialization (task 2) >>>(very greater than) Nearest_neighbour (task 3) ~=> (little greater than) Task 4 (Euclidean Approximation)
+	so Euclidean Approximation gives you lowest initial routh length.
+	The order of number of iterartions is also the same. Thus Euclidean Approximation algorithm also gives the result in lowest number of iterations. So Euclidean Approximation algorithm is better choice in this case.
+
+
+Task 6:
+	Task6 file graph shows that it takes less number of iterations (around 40) to converger for most of see values. While Task2 graph takes more number of iterations (around 60) to converge.
+
+	Although task2 takes more iterations to converge, it takes less time as compared to task6.
+	As 3-opt + 2opt is doing the task in less iteration. but it takes far more time. So, there is a tradeoff between both algorithm and which is better depends mostly on conditions. In this case, 2-opt is doing the task faster, so its better.
+
+Task 7:
+	Task 7 gives final tour length near 700 for all startings cities, but task 3 fails to do so in case of starting ciity being city 3 and city 4. Also Task 7 (3-opt + 2-opt) takes less number of average iteration. But 3-opt + 2-opt (task 7) takes far more time as compared to task 3. So which algorithm is better depends heavily on the requirement of the problem. 
+	3-opt + 2-opt gives consistent results while 2-opt gives results faster. So, if we have enough time, 3-opt + 2-opt is better, while for a quick search, 2-opt will do the thing.
+
+Task 8:
+	The final tour length for both algorithm is about same. 3-opt + 2-opt (Task 8) in this case take less number of iterations than task 4. Although in this case it does not take that much time as compared to previous 2 cases. Alse, for task 8, its initial tour length is low as compared to Task 4. This is good as it will guarantee a better solution. So 3-opt + 2-opt is a better choice in this scenario.

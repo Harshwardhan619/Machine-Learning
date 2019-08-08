@@ -1,0 +1,7 @@
+Name:	Harshwardhan Mourya
+Rollno:	160050048
+
+Refrences:
+	1. For euclidean distane : 			https://stackoverflow.com/a/44544145/8441259
+	2. For algo related to Median: 		https://stackoverflow.com/a/4266562/8441259
+	3. Convert Hex string to decimal : 	https://stackoverflow.com/a/35516257/8441259 
